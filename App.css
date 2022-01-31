@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif; 
+}
+body {
+    background-color: #3d3e47;
+}
+.menu {
+    display: flex;
+    flex-direction:row;
+    cursor: pointer;
+    margin:50px;
+}
+.menu li {
+    margin:0 20px;
+    list-style:none;
+    color: #b2b1b1;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top:-15px;
+    margin-top: -15px;
+    margin-right: 48px;
+}
+.text {
+    width: 75%;
+    height: 20%;
+    top: 25%;
+    left: 150px;
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    float: left;
+}
+.moretext {
+    width: 23%;
+    float: left;
+    font-size: 15px;
+    position: absolute;
+    left: 160px;
+    top: 34.5%;
+    line-height: 25px;
+    color: #919191;
+}
+.site-pic img {
+    width: 45%;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}
+.social-icons {
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    color: #fff;
+    gap:15px;
+    cursor: pointer;
+    font-size:25px;
+}
+.searchmenu {
+    color: #b2b1b1;
+    right:20px;
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13.5px;
+    top:10px;
+}
+.searchmenu ul li{
+    list-style: none;
+}
+
+.searchmenu ul {
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+.logo2 {
+    width:100px;
+    height:100px;
+    top:15px;
+    left:104px;
+    position:fixed;
+}
+.searchmenu2 ul{
+    list-style: none;
+    color: #b2b1b1;
+    display:flex;
+    justify-content: flex-start;
+    gap:20px;
+    cursor:pointer;
+    left:425px;
+    top:65px;
+    position:fixed;
+}
+.searchmenu2 ul li{
+
+}
+
+.searchbutton {
+    right:20px;
+    position:absolute;
+}
+
+.symbol {
+    width: 50px;
+    height: 50px;
+    margin-right:-10px;
+    
+}
+
+.coindata{
+    width:100%;
+    display:flex;
+    margin-top:175px;
+    background-color:#DCDCDC;
+    justify-content:center;
+    align-content:center;
+    font-size:1rem;
+    gap:1rem;
+    font-family: sans-serif; 
+    padding-right:50px;
+    padding-left:50px;
+
+
+}
+.box1{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+
+}
+.box2{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+
+}
+.box3{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+}
+.box4{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+}
+.box5{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+}
+.box6{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+}
+.box7{
+    background:#DCDCDC;
+    grid-template-columns:auto;
+}
+.coindata2{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    text-align:right;
+    color:#fff;
+    font-size:10px;
+
+}
+.box10{
+    background:#fff;
+}
+.boxbetween1{
+    background:#008B8B;
+}
